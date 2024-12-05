@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4e4d4"
+    android:padding="16dp">
+
+    <!-- Contenedor para mostrar detalles del remedio como fragmento -->
+    <FrameLayout
+        android:id="@+id/contenedorFragmento"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- RecyclerView para mostrar la lista de remedios -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRemedios"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:padding="8dp" />
+
+    <!-- Botón para regresar al menú principal -->
+    <Button
+        android:id="@+id/btnMenuPrincipalRemedios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menú principal"
+        android:backgroundTint="#4A3F35"
+        android:textColor="@android:color/white" />
+</LinearLayout>

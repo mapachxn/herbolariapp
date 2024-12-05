@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4e4d4"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Bienvenido a..."
+        android:textColor="#333"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/logo_yollotl"
+        android:contentDescription="Logo de Yollotl Coapatli"
+        android:layout_marginBottom="24dp" />
+
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yollotl Coapatli"
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_almanaque"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="🌿 Almanaque"
+        android:textSize="24sp"
+        android:backgroundTint="#d4c4b0"
+        android:textColor="#333"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_remedios"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="📜 Remedios"
+        android:textSize="24sp"
+        android:backgroundTint="#d4c4b0"
+        android:textColor="#333"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si tienes dudas sobre el propósito de esta aplicación"
+        android:textSize="20sp"
+        android:textColor="#333"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/info_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="haz click aquí"
+        android:textSize="20sp"
+        android:textColor="#0066cc"
+        android:textStyle="bold"
+        android:clickable="true" />
+</LinearLayout>

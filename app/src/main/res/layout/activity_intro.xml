@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#f4e4d4">
+
+    <ImageView
+        android:id="@+id/image_intro1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/prehispanica1"
+        android:contentDescription="La herbolaria mexicana inició a finales del siglo XVIII"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/text_intro1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desde la época prehispánica, las civilizaciones indígenas mesoamericanas tenían un vasto conocimiento profundo sobre la herbolaria y medicina tradicional que se ha ido heredando después de más de 500 años.
+Actualmente, en la Sierra Norte de Puebla, especificamente en la ciudad de Teziutlán, alberga una gran cantidad de herbolaria mexicana gracias a las regiones montañosas y húmedas que albergan una amplia variedad de especies vegetales que son utilizadas por las comunidades locales."
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente" />
+</LinearLayout>

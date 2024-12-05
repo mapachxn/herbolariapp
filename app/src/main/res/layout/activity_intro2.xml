@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#f4e4d4">
+
+    <ImageView
+        android:id="@+id/image_intro2"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/mapapuebla"
+        android:contentDescription="Imagen sobre la ubicación de Teziutlán"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/text_intro2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La región central de Teziutlán incluyendo sus localidades periféricas tales como Aire Libre, Mexcalcuautla y Chignautla son reconocidas por su abundante flora medicinal. Esta diversidad botánica es un testimonio de la riqueza natural del territorio poblano.
+Yollotl Coapatli se presenta como un compendio exhaustivo de la herbolaria utilizada en prácticas medicinales y curativas. Este recurso no solo documenta las propiedades de las plantas, sino que también ofrece una variedad de recetas, detallando cómo cada planta funciona a la mejora de diversas condiciones de salud."
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atrás" />
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú" />
+</LinearLayout>
+
